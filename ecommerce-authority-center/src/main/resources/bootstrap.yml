@@ -12,7 +12,7 @@ spring:
         enabled: true # 如果不想使用 Nacos 进行服务注册和发现, 设置为 false 即可
         server-addr: 127.0.0.1:8848 # Nacos 服务器地址
         # server-addr: 127.0.0.1:8848,127.0.0.1:8849,127.0.0.1:8850 # Nacos 服务器地址
-        namespace: df6aa827-82e4-44b5-a8d3-2880952e74b7
+        namespace: 497bdcb8-2d9b-4a00-825b-2952262f95a1
         metadata:
           management:
             context-path: ${server.servlet.context-path}/actuator

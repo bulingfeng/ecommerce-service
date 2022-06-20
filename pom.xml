@@ -12,6 +12,7 @@
         <module>ecommerce-mvc-config</module>
         <module>ecommerce-common</module>
         <module>ecommerce-authority-center</module>
+        <module>ecommerce-gateway</module>
     </modules>
 
 
