@@ -31,7 +31,7 @@ public class SwaggerConfig {
                 .apiInfo(apiInfo())
                 // 选择展示哪些接口
                 .select()
-                // 只有 com.imooc.ecommerce 包内的才去展示
+                // 只有 指定扫描包 包内的才去展示
                 .apis(RequestHandlerSelectors.basePackage("com.bulingfeng.ecommerce"))
                 .paths(PathSelectors.any())
                 .build();
