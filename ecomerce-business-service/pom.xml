@@ -14,6 +14,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>ecommerce-business-service-config</module>
+        <module>ecommerce-account-service</module>
+        <module>ecommerce-service-sdk</module>
     </modules>
 
     <!-- 模块名及描述信息 -->
